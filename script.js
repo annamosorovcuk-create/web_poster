@@ -2,19 +2,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 /*СЛАЙД 1 */
-    
     const correctSequence = [
-        { id: 'element-1', name: 'звук', order: 1 },
-        { id: 'element-2', name: 'нота', order: 2 },
-        { id: 'element-3', name: 'аккорд', order: 3 },
-        { id: 'element-4', name: 'мелодия', order: 4 },
-        { id: 'element-5', name: 'композиция', order: 5 },
-        { id: 'element-6', name: 'песня', order: 6 },
-        { id: 'element-7', name: 'альбом', order: 7 },
-        { id: 'element-8', name: 'сетлист', order: 8 },
-        { id: 'element-9', name: 'выступление', order: 9 }
-    ];
-    
+    { id: 'Element-1', name: 'звук', order: 1 },
+    { id: 'Element-2', name: 'нота', order: 2 },
+    { id: 'Element-3', name: 'аккорд', order: 3 },
+    { id: 'Element-4', name: 'мелодия', order: 4 },
+    { id: 'Element-5', name: 'композиция', order: 5 },
+    { id: 'Element-6', name: 'песня', order: 6 },
+    { id: 'Element-7', name: 'альбом', order: 7 },
+    { id: 'Element-8', name: 'стелист', order: 8 },
+    { id: 'Element-9', name: 'выступление', order: 9 }
+];
 //Состояние игры 
     let placedWords = [];
     let currentDraggedElement = null;
