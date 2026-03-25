@@ -2,26 +2,149 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>friend</title>
-        <link rel="stylesheet" href="css/style.css">
-       
+        <title>web-poster</title>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" >
     </head>
 
-        <body>
-            <section class="grabber">
-                <div class="grabber-background" style="z-index: 1">
-                    <img id="fixed-width" src="assets/edge.png" alt="" />
-                    <img id="responsive" src="assets/responsive-stripe.png" alt="" />
-                    <img
-                    id="fixed-width"
-                    style="max-width: 1675px; min-width: 1675px"
-                    src="assets/body.png"
-                    alt="" />
-                    <img id="responsive" src="assets/responsive-stripe.png" alt="" />
-                    <img id="fixed-width" src="assets/edge.png" alt="" />
-                </div>
-            </section>
+    <body>
+        
+        <div class="image-container">
+            <img src="assets/main body.png" alt="" class="responsive-image">
 
-            <script src="script.js"></script>
-        </body>
+             <div class="overlay-elements">
+
+                <div id="draggableWordsContainer" class="draggable-words-container"></div>
+                <div id="dropZone" class="drop-zone"></div>
+
+                <div class="dialogue-text">
+                    Главные звезды сцены сегодня - это цифровые фантомы.<br> «Воскрешение» Элвиса Пресли и Уитни Хьюстон собрало<br> миллиарды просмотров и долларов. Зрители платят<br> за то, чтобы увидеть кумиров, которых уже нет в живых.
+                    </div>
+    
+                    <div class="grabber-text-2">grabber</div>
+                    <div class="grabber-text">grabber</div>
+                
+                    <img src="assets/dialogue-slide-1.png" alt="" class="dialogue-image">
+
+                    <div class="buttons-overlay">
+                        <img src="assets/button-left.png" alt="" class="nav-button button-left">
+                        <img src="assets/button-middle.png" alt="" class="nav-button button-middle">
+                        <img src="assets/button-right.png" alt="" class="nav-button button-right">
+                    </div>
+
+                    <div id="finalWord" class="final-word" style="display: none;">
+                        <img src="assets/element-10.png" alt="" class="concert-image">
+                    </div>
+             </div>
+        </div>
+
+        <div class="slide-2">
+
+            <div class="slide-2-container">
+
+                <div class="jukebox-text-1">Jukebox</div>
+                <div class="jukebox-text-2">Jukebox</div>
+
+                <img src="assets/Jukebox.png" alt="" class="jukebox-image">
+
+                <div id="notesContainer" class="notes-container"></div>
+
+                    <div id="dropZone1" class="drop-zone-note drop-zone-1"></div>
+                    <div id="dropZone2" class="drop-zone-note drop-zone-2"></div>
+                    <div id="dropZone3" class="drop-zone-note drop-zone-3"></div>
+                    <div id="dropZone4" class="drop-zone-note drop-zone-4"></div>
+
+                    <div id="finalGameImage" class="final-game-image" style="display: none;">
+                        <img src="assets/final-game.png" alt="" class="final-game-img">
+                    </div>
+
+
+                <img src="assets/main picture.png" alt="" class="main-picture-image">
+                <img src="assets/3-pink-details.png" alt="" class="pink-details">
+
+                <div class="dialogue-text-2">
+                    В Корее и Японии голограммы - это рабочий<br> инструмент для живых звезд. Пока артист<br> отдыхает или готовится к новому альбому,<br> его цифровой двойник может выступать<br> на другом конце страны или даже<br> взаимодействовать с фанатами в соцсетях.
+                    
+                </div>
+
+                <img src="assets/dialogue-slide-2.png" alt="" class="dialogue-image-2">
+
+                <img src="assets/slide-man-2.png" alt="" class="slide-man-image">
+
+                <img src="assets/stick-1.png" alt="" class="stick-image">
+                <img src="assets/stick-2.png" alt="" class="stick-image-2">
+                <img src="assets/stick-3.png" alt="" class="stick-image-3">
+                <img src="assets/stick-4.png" alt="" class="stick-image-4">
+                <img src="assets/stick-5.png" alt="" class="stick-image-5">
+            </div>
+        </div>
+
+        <div class="slide-3">
+            <div class="slide-3-container">
+
+                <div class="Dance-revolution-1">Dance<br>revolution</div>
+                <div class="Dance-revolution-2">Dance<br>revolution</div>
+
+                <div class="dialogue-text-3">
+                  MEIKO (2004): Первая японская виртуальная<br> певица с коммерческим успехом. Именно<br> на её успехе компания поняла, что<br> у виртуальных певцов должно быть «лицо»<br> и персонаж на упаковке.
+                </div>
+
+
+                    <img src="assets/dialogue-slide-3.png" alt="" class="dialogue-image-3">
+
+
+                <img src="assets/Dance-revolution.png" alt="" class="dance-image">
+                <img src="assets/disco-ball.png" alt="" class="disco-ball-image">
+                <img src="assets/stand.png" alt="" class="stand-image">
+
+                <div class="poses-container">
+                    <img src="assets/pose1.png" alt="" class="dance-pose" id="pose-1">
+                    <img src="assets/pose2.png" alt="2" class="dance-pose" id="pose-2">
+                    <img src="assets/pose3.png" alt="" class="dance-pose" id="pose-3">
+                    <img src="assets/pose4.png" alt="" class="dance-pose" id="pose-4">
+                </div>
+                
+                <div class="buttons-container">
+                    <img src="assets/leftbutton.png" alt="" class="control-button" id="btn-a">
+                    <img src="assets/upbutton.png" alt="" class="control-button" id="btn-w">
+                    <img src="assets/rightbutton.png" alt="" class="control-button" id="btn-d">
+                    <img src="assets/downbutton.png" alt="" class="control-button" id="btn-s">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-4">
+            <div class="slide-4-container">
+
+                <div class="Drag-1">Drag</div>
+                <div class="Drag-2">Drag</div>
+
+                 <div class="dialogue-text-4">
+                  Адам (1998) - полностью компьютерный певец (CGI)<br> с реальным вокалом. Его альбом «Genesis» разошелся<br> тиражом 200 000 копий, но проект закрыли из-за<br> дороговизны и трудоемкости создания графики<br> для клипов в 90-х.
+                </div>
+
+
+                <img src="assets/dialogue-slide-4.png" alt="" class="dialogue-image-4">
+
+                <img src="assets/drag.png" alt="" class="drag-image" id="dragTriggerImage">
+
+                <div id="ballContainer" class="ball-container"></div>
+
+                <img src="assets/music-records.png" alt="" class="music-records">
+
+                <div class="playlist-wrapper">
+                    <img src="assets/playlist.png" alt="" class="playlist">
+                    <div id="playheadBall" class="playhead-ball"></div>
+                </div>
+
+                <audio id="audio1" src="assets/audio1.mp3"></audio>
+                <audio id="audio2" src="assets/audio2.mp3"></audio>
+                <audio id="audio3" src="assets/audio3.mp3"></audio>
+
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
 </html>
